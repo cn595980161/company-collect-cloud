@@ -19,6 +19,7 @@
         <module>companycollect-eureka</module>
         <module>companycollect-gateway</module>
         <module>companycollect-monitor</module>
+        <module>companycollect-service</module>
     </modules>
 
     <properties>
@@ -35,6 +36,14 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <!--<scope>provided</scope>-->
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
